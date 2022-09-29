@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ahorcado Challenge</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="ahorcado.js" />
+	</head>
+	<body>
+		<div class="fondo">
+			<header>
+				<div>
+					<img src="imagenes/Logo.png" alt="imagen del logo" />
+				</div>
+				<div class="ahorcado">El Ahorcado</div>
+			</header>
+			<main>
+				<section id="empezar">
+					<input class="button" id="iniciando" type="button" value="Iniciar juego" />
+				</section>
+
+				<section id="juego">
+					<div class="fondo-canvas">
+						<div id="secreto"></div>
+						<section class="dibujo">
+							<canvas id="pizarra"> </canvas>
+						</section>
+					</div>
+
+					<div class="jugando">
+						<input
+							id="letra-pensada"
+							placeholder="Ingresa la letra que piensas aquí"
+							type="text"
+							maxlength="1"
+						/>
+						<input id="enviar-letra" type="button" value="Enviar" />
+					</div>
+
+					<div id="intentos">
+						<h2>El número de intentos es "4"</h2>
+					</div>
+					<section class="letras-erradas">
+						<div id="letra-errada"></div>
+					</section>
+				</section>
+			</main>
+			<footer>&copy; Jose Luis Paul</footer>
+		</div>
+		<script src="ahorcado.js"></script>
+	</body>
+</html>

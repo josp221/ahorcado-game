@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,600&family=Dangrek&family=Rubik+Dirt&display=swap');
+
+header {
+	display: flex;
+	height: 10vh;
+	background: #5a8c7e;
+}
+
+header div {
+	width: 5%;
+	padding: 12px 10px;
+}
+
+.ahorcado {
+	width: 85%;
+	/* padding: 10px 2px; */
+	text-align: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Rubik Dirt', cursive;
+	text-shadow: 3px 3px #000000;
+}
+
+button {
+	width: 100%;
+	border-radius: 20px;
+}
+
+main {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	/* padding: 20px; */
+}
+
+.fondo {
+	width: 100%;
+	height: 100vh;
+	background: url(imagenes/paisaje-bosque-niebla-embrujada-camino-fondo-oscuro-ficcion-halloween-concepto-aterrador-representacion-3d_200360-494.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondo-canvas {
+	background: url(imagenes/teneebr.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid rgb(171, 201, 226);
+	border-radius: 20px;
+}
+
+#juego {
+	width: 70%;
+	max-width: 700px;
+	display: none;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.dibujo {
+	display: none;
+}
+
+#pizarra {
+	border-radius: 20px;
+	width: 100%;
+	height: 310px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+#persona {
+	width: 100%;
+	height: 450px;
+}
+
+.button {
+	background: #211d09;
+	color: #f9ab03;
+	text-shadow: 2px 2px #3a94bb;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border: none;
+	width: 250px;
+	height: 80px;
+	justify-content: center;
+	font-size: 30px;
+	box-shadow: inset 5px -5px 46px 13px #bdbda4;
+}
+
+#letra-pensada {
+	border: none;
+	color: #000000;
+	border-radius: 20px;
+	width: 95px;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	width: 400px;
+}
+
+#enviar-letra {
+	background: #f7f7f6;
+	color: #070707;
+	text-shadow: 1.5px 0.8px #3a94bb;
+	box-shadow: -10px 15px 22px 3px #111111;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	width: 150px;
+	height: 40px;
+	font-weight: bold;
+}
+
+.jugando {
+	display: flex;
+	gap: 8px;
+	justify-content: space-around;
+}
+
+#secreto {
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	margin-top: -15px;
+}
+
+#intentos {
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	color: rgb(8, 8, 8);
+	text-shadow: 2px 1px #07d504;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#letra-errada {
+	text-align: center;
+	font-weight: 900;
+	color: rgb(63, 109, 44);
+}
+
+footer {
+	background: rgb(56, 56, 56);
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px 6px 4px #25582d;
+	height: 10vh;
+	color: #f7f7f6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
