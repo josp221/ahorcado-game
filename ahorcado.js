@@ -175,6 +175,9 @@ const resetearJuego = () => {
 	seccionIniciar.style.display = 'block';
 	seccionJuego.style.display = 'none';
 	dibujando.style.display = 'none';
+	contador = 4;
+	letrasErradas = [];
+	letrasAcertadas = [];
 };
 
 const nuevoJuego = () => {
